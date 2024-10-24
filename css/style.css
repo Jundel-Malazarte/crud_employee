@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #343a40;
+}
+
+/* Container Styles */
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+/* Table Styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.table th, .table td {
+  padding: 0.75rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.table td {
+  background-color: #f9f9f9;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Button Styles */
+.add-btn {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #2962ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.btn {
+  font-size: 0.875rem;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+}
+
+.btn-close {
+  font-size: 1.2rem;
+  color: #000;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Alert Styles */
+.alert {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+}
+
+.alert-warning {
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  color: #856404;
+}
+
+/* Search Form Styles */
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.search-form input {
+  flex-grow: 1;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  margin-right: 0.5rem;
+}
+
+.search-form button {
+  padding: 0.5rem 1rem;
+  background-color: #2962ff;
+  color: #fff;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  opacity: 0.8;
+}
+
+/* Custom Button Styles */
+.edit-btn {
+  background-color: #2962ff;
+  border: none;
+  color: white;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.action-link {
+  text-decoration: none;
+  color: white;
+}
+
+.action-link:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
